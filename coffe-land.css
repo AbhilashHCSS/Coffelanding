@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #100e0f;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --main-color: #deab5f;
+    --pimary-color: #321e2e;
+}
+
+/*unity Styles*/
+button {
+    padding: 10px 30px;
+    background-color: var(--main-color);
+    border: none;
+    cursor: pointer;
+}
+
+.navbar {
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    font-family: sans-serif;
+}
+
+li {
+    display: inline;
+    list-style: none;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+li a:hover {
+    border-bottom: 2px solid var(--main-color);
+    padding: 3.5px;
+}
+
+.header {
+    background: url(coffeemenuproject.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.main-heading {
+    position: absolute;
+    top: 7rem;
+    word-spacing: 10px;
+    font-size: 4rem;
+}
+
+.primary-heading {
+    position: absolute;
+    bottom: 8.5rem;
+    font-size: 4rem;
+    margin-bottom: -40px;
+    word-spacing: 10px;
+}
+
+.main-btn {
+    position: absolute;
+    padding: 10px 30px;
+    margin-top: 20px;
+    background-color: var(--main-color);
+    bottom: 2rem;
+    transform: translateY(-5px);
+    border-radius: 25px;
+    font-size: 1.2rem;
+}
+
+#ourstory {
+    height: 100vh;
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #fff;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin-right: 0;
+    color: #fff;
+    transform: translateX(-100px);
+}
+
+.img {
+    width: 400px;
+    height: 400px;
+    background: url(coffeemenuproject.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.title-style {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    width: 100px;
+    height: 2px;
+    background: #fff;
+    transform: translateX(-120px);
+}
+
+.section-content p {
+    max-width: 500px;
+    line-height: 20px;
+    margin: 20px 0;
+}
+
+.coffee-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+}
+
+.img01 {
+    width: 400px;
+    height: 400px;
+}
+
+.content-section p {
+    max-width: 600px;
+    margin-top: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.title-two {
+    font-size: 3rem;
+    color: #fff;
+}
+.products
+{
+    margin-top: 5rem;
+}
+.title-three
+{
+    font-size: 4rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 10rem;
+}
+.cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.card
+{
+    color: linear;
+    border: 2px solid var(--pimary-color);
+    padding: 0 20px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   align-items: center;
+   text-align: center;
+   border-radius: 10px;
+   position: relative;
+   margin-bottom: 4rem;
+}
+.cards-img
+{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -60px;
+}
+.img-one
+{
+    background: url(Coffee-landcapp.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.img-two
+{
+    background: url(Coffee-landcapp.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.img-three
+{
+    background: url(coffeemenuproject.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.card-title
+{
+    color: #fff;
+    margin-top: 50px;
+}
+.card .items p{
+    color: #fff;
+    margin: 20px 0;
+}
+footer
+{
+    height: 50vh;
+    display: flex;
+    color: #fff;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+footer .container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    max-width: 350px;
+    margin: 20px;
+}
+footer .heading-info
+{
+    margin-bottom: 15px;
+}
+footer p{
+    line-height: 25px;
+}
+span{
+    color: var(--main-color);
+}
+hr{
+    margin-bottom: 20px;
+    border: var(--main-color);
+    width: 500px;
+    margin:0 auto;
+}
+.para
+{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+@media only screen and (max-width:768px) {
+    .main-heading , .primary-heading{
+        font-size: 2.5rem;
+    }
+   #ourstory
+   {
+    text-align: center;
+   }
+   #ourstory .title
+   {
+    transform: translateX(50);
+   }
+   #ourstory .line
+   {
+    display: none;
+   }
+   #ourstory .img-container .img{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+   }
+   .coffee-container .img-container
+   {
+    margin-top: 5rem;
+    width: 50%;
+   }
+   .title-two
+   {
+    margin: 0 auto;
+   }
+   .title
+   {
+    margin: 0 auto;
+   }
+.title-three
+{
+    display: none;
+}
+.para
+{
+    display: none;
+}
+}
